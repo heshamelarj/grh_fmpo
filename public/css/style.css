@@ -1,0 +1,543 @@
+body{
+    width: 100%;
+}
+.loginDiv{
+    position: absolute;
+    top:100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#newConge{
+    position: relative;
+    right: 0;
+    left:0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+#newGrade{
+    position: relative;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+footer{
+    min-height: 30px;
+    max-height: 30px;
+}
+.login-title
+{
+    color: #494949;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+#logoMed
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 0px;
+    float: left;
+}
+#logoOffpt
+{
+    width: 50px;
+    height: 50px;
+    margin-right: 0px;
+    float: right;
+}
+.labels {
+    background-color:rgba(0,0,0,0.2) ;
+    color:#000000 ;
+}
+.btn-bg{
+    background-color: #505050;
+    color: #129792;
+}
+.btn-primary{
+    background-color:#129792;
+    color:#494949;
+}
+.highlight{
+background-color: yellow;
+}
+.btn-primary:hover {
+    background-color: #9BD7D5;
+    color:Black;
+}
+.input-group-addon {
+    min-width:200px;
+    text-align:left;
+}
+.button:hover{
+    background-color: #9d9d9d;
+}
+.button{
+    color:#129792;background-color: #505050;
+}
+.glyphicon.glyphicon-log-out{
+    font-size: 50px;
+    position: relative;
+    margin-right: 0px;
+}
+.glyphicon.glyphicon-floppy-disk{
+    font-size: 30px;
+    position: relative;
+    margin-bottom: 0px;
+    margin-left:0px;
+    margin-right:0px;
+    margin-top: 400px;
+}
+.dropdown{
+    background-color:#505050;
+}
+.dropdown  li{
+    background-color:#505050;
+    color:#129792;
+}
+.dropdown  ul{
+    background-color:#505050;
+    color:#129792;
+}
+.dropdown ul li a{
+    color:#494949;
+}
+.dropdown ul li a:hover{
+
+    color:#9BD7D5;
+}
+.iconsColor{
+    background-color: #505050;
+    color: #494949;
+    font-size: 20px;
+}
+.glyphicon{
+    color: #494949;
+    font-size: 12px;
+}
+.span
+{
+ margin-right: 6px;
+ margin-left: 6px;
+}
+
+#infoPersonnal_1_TableBody {
+    height: 160px;;
+}
+#infoPersonnal_2_TableBody {
+    height: 160px;;
+
+}
+#infoPersonnal_1_TableHeader th{
+    font-size: small;
+    text-align: center;
+    width: 158px;
+
+}
+#infoPersonnal_1_TableBody td{
+    font-size: xx-small;
+    text-align: center;
+    width: 158px;
+
+}
+#infoPersonnal_2_TableHeader th{
+    font-size: small;
+    text-align: center;
+    width: 158px;
+
+}
+#infoPersonnal_2_TableBody td{
+    font-size: xx-small;
+    text-align: center;
+    width: 158px;
+
+}
+
+#infoProfesionnel_1_TableBody {
+    height: 160px;;
+}
+#infoProfesionnel_2_TableBody {
+    height: 160px;;
+
+}
+#infoProfesionnel_1_TableHeader th{
+    font-size: small;
+    text-align: center;
+    width: 158px;
+
+}
+#infoProfesionnel_1_TableBody td{
+    font-size: xx-small;
+    text-align: center;
+    width: 158px;
+
+}
+#infoProfesionnel_2_TableHeader th{
+    font-size: small;
+    text-align: center;
+    width: 158px;
+
+}
+#infoProfesionnel_2_TableBody td{
+    font-size: xx-small;
+    text-align: center;
+    width: 158px;
+
+}
+
+
+
+#ensiegnantTable td{
+    font-size: xx-small;
+    text-align: center;
+}
+#ensiegnantTable th{
+    font-size: smaller;
+    text-align: center;
+    width: 10%;
+}
+#foncTable td{
+    font-size: xx-small;
+    text-align: center;
+}
+
+#congeTable td{
+    font-size: xx-small;
+    text-align: center;
+}
+#congeTable th{
+    font-size: smaller;
+    text-align: center;
+    width: 10%;
+
+}
+#gradeTable td{
+    font-size: xx-small;
+    text-align: center;
+}
+#gradeTable th{
+    font-size: smaller;
+    text-align: center;
+    width: 10%;
+}
+#ensTable td{
+    font-size: xx-small;
+    text-align: center;
+}
+#ensTable th{
+    font-size: smaller;
+    text-align: center;
+    width: 10%;
+}
+#foncTable th{
+    font-size: smaller;
+    text-align: center;
+    width: 10%;
+}
+#searchDiv{
+    position: relative;
+    margin-right: 57px;
+}
+#verticalDivider{
+    margin-right: 3px;
+    border-left:1px solid #505050;
+    border-right:1px solid #5e5e5e;
+    height:59px;
+    position:absolute;
+    right:67px;
+    top:0px;
+}
+.navbar-fixed-top{
+background-color: darkgray;
+}
+.navbar-fixed-top a{
+    color:#129792;
+}
+.navbar-fixed-top a:hover{
+    color:#9BD7D5;
+}
+.charts{
+    margin-top: 100px;
+}
+.icon-bar{
+    background-color: whitesmoke;
+}
+.div {
+    width: 350.375px;
+    height:152px;
+    background-color: rgba(0,0,0,0.2);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.form-control{
+    min-width: 300px;
+    max-width: 300px;
+    height:20px;
+    background-color: rgba(0,0,0,0.2);
+    color:#000000 ;
+}
+.combobox{
+    min-width: 100px;
+    max-width: 100px;
+    height:30px;
+    background-color: rgba(0,0,0,0.2);
+    color:#000000 ;
+}
+
+#typeConge.combobox{
+    min-width: 100px;
+    max-width: 100px;
+    height:30px;
+    background-color: rgba(0,0,0,0.2);
+    color:#000000 ;
+}
+.divConge {
+    width: 120px;
+    height:70px;
+    background-color: #c0c0c0;
+    border-radius: 10px;
+}
+#newConge{
+    background: -webkit-linear-gradient(left, #25c481, #129792);
+    background: linear-gradient(to right, #25c481, #129792);
+    font-family: 'Roboto', sans-serif;
+    width: 350px;
+    height: 300px;
+    display: block;
+}
+#newGrade{
+    background: -webkit-linear-gradient(left, #25c481, #129792);
+    background: linear-gradient(to right, #25c481, #129792);
+    font-family: 'Roboto', sans-serif;
+    width: 350px;
+
+    height: 400px;
+    display: block;
+}
+.ui-datepicker {
+    background:#505050 ;
+    border: 1px solid #555;
+    color: #494949;
+}
+.ui-datepicker-header
+{
+background: #505050;
+    border: none;
+}
+.ui-datepicker thead {
+    background: #505050;
+}
+.ui-datepicker tbody td {
+    background: #505050;
+}
+.ui-datepicker tbody tr {
+    background: #505050;
+}
+.datepicker.dropdown-menu{
+    width: 200px;
+}
+.dropdown-toggle
+{
+    min-width: 10px !important;
+}
+.combobox
+{
+    width: 140px;
+}
+/*Trannsparent*/
+#Tabs {
+    background: transparent;
+    border: none;
+}
+#Tabs .ui-widget-header {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #c0c0c0;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+#Tabs .ui-tabs-nav .ui-state-default {
+    background: transparent;
+    border: none;
+}
+#Tabs .ui-tabs-nav .ui-state-active {
+    background: transparent url(img/uiTabsArrow.png) no-repeat bottom center;
+    border: none;
+}
+#Tabs .ui-tabs-nav .ui-state-default a {
+    color: #494949;
+}
+#Tabs .ui-tabs-nav .ui-state-active a {
+    color: #C0C0C0;
+}
+/*New Congee Tab*/
+#tabNewConge {
+    position: relative;
+    padding-bottom: 3em;
+    font-family: 'Roboto', sans-serif;
+}
+#tabNewConge .ui-tabs-nav {
+    position: absolute;
+    left: 0.25em;
+    right: 0.25em;
+    bottom: 0.25em;
+    padding: 0em 0.2em 0.2em;
+}
+#tabNewConge .ui-tabs-nav li {
+    top: -1px;
+    border-top: none;
+    border-bottom: 1px solid #ccc !important;
+    -moz-border-radius: 0px 0px 4px 4px;
+    -webkit-border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px 4px 4px;
+}
+#tabNewGrade {
+    position: relative;
+    padding-bottom: 3em;
+    font-family: 'Roboto', sans-serif;
+}
+#tabNewGrade .ui-tabs-nav {
+    position: absolute;
+    left: 0.25em;
+    right: 0.25em;
+    bottom: 0.25em;
+    padding: 0em 0.2em 0.2em;
+}
+#tabNewGrade .ui-tabs-nav li {
+    top: -1px;
+    border-top: none;
+    border-bottom: 1px solid #ccc !important;
+    -moz-border-radius: 0px 0px 4px 4px;
+    -webkit-border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px 4px 4px;
+}
+.ui-dialog-titlebar {
+    background-color: #4E4E4E;
+    background-image: none;
+    color: #129792;
+}
+.dialog{
+    background-color: #4E4E4E;
+    color: #129792;
+}
+.datepicker{
+  font-size: xx-small;
+}
+.navbar .dividerV {
+    height:59px;
+    margin: 0 9px;
+    border-left:1px solid #505050;
+    border-right:1px solid #5e5e5e;
+}
+.navbar-inverse .dividerV {
+    border-right-color: #5e5e5e;
+    border-left-color: #505050;
+}
+@media (max-width: 767px) {
+    .navbar-collapse .nav > .dividerV {
+        display: none;
+    }
+}
+/*TABLES STYLING*/
+.centerIt{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+h1{
+    font-size: 30px;
+    color: #494949;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+}
+table{
+    table-layout: fixed;
+}
+.tbl-header{
+    background-color: rgba(255,255,255,0.3);
+}
+.tbl-content{
+    height:360px;
+    overflow-x:auto;
+    margin-top: 0px;
+    border: 1px solid rgba(255,255,255,0.3);
+}
+th{
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 12px;
+    color: #000000;
+    text-transform: uppercase;
+}
+td{
+    padding: 15px;
+    text-align: center;
+    vertical-align:middle;
+    font-weight: 900;
+    font-size: 12px;
+    color: #000000;
+    border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+/* demo styles */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body{
+/*    background: -webkit-linear-gradient(left, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343);*/
+    background-color: darkgray;
+    font-family: 'Roboto', sans-serif;
+
+}
+.copy-right {
+    text-align: center;
+    color: #000000;
+    margin: 100px 0 0;
+    font-size: 12px;
+    font-weight: 300;
+    border-top: 1px solid  rgba(255,255,255,0.2);
+    padding: 20px 2%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-shadow: 1px 0 1px rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+}
+.copy-right:visited {
+    color: #a8f6e7;
+    text-decoration: none;
+}
+.copy-right:hover, .copy-right:focus, .copy-right:visited:hover, .copy-right:visited:focus {
+    text-decoration: underline;
+    color: #000000;
+}
+.transparent{
+    background:rgba(0,0,0,0.2);
+    background: -webkit-linear-gradient(left, #25c481, #129792);
+    background: linear-gradient(to right, #25c481, #129792);
+}
+/* for custom scrollbar for webkit browser*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
